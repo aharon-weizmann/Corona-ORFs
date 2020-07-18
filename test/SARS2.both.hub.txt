@@ -1,5 +1,5 @@
 hub RiboSeq.both
-shortLabel RiboSeq Data and ORFs predictions
-longLabel RiboSeq Data and ORFs predictions
+shortLabel Test
+longLabel Test Test Test
 genomesFile SARS2.both.genome.txt
 email aharonn@gmail.com
