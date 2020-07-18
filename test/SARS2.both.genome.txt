@@ -1,0 +1,2 @@
+genome wuhCor1
+trackDb SARS2.both.trackDB.txt
