@@ -6,6 +6,7 @@ longLabel Calu3 7hpi Ribo-seq and RNA-seq
 type group
 superTrack on
 group regulation
+html Calu3_07hpi.html
 
 track CHX_7hr_1
 priority 21
@@ -19,7 +20,7 @@ color 4,90,141
 visibility full
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_chx_07hr_1.bw
+bigDataUrl fp_chx_07hr_1.bw
 
 track CHX_7hr_2
 priority 22
@@ -33,7 +34,7 @@ alwaysZero on
 color 4,90,141
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_chx_07hr_2.bw
+bigDataUrl fp_chx_07hr_2.bw
 
 track Harr_7hr_1
 priority 23
@@ -47,7 +48,7 @@ color 179,0,0
 visibility full
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_harr_07hr_1.bw
+bigDataUrl fp_harr_07hr_1.bw
 
 track Harr_7hr_2
 priority 24
@@ -61,7 +62,7 @@ alwaysZero on
 color 179,0,0
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_harr_07hr_2.bw
+bigDataUrl fp_harr_07hr_2.bw
 
 track LTM_7hr_1
 priority 25
@@ -75,7 +76,7 @@ color 35,139,69
 visibility full
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_ltm_07hr_1.bw
+bigDataUrl fp_ltm_07hr_1.bw
 
 track LTM_7hr_2
 priority 26
@@ -89,7 +90,7 @@ alwaysZero on
 color 35,139,69
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_ltm_07hr_2.bw
+bigDataUrl fp_ltm_07hr_2.bw
 
 track mRNA-seq_7hr_1
 priority 27
@@ -103,7 +104,7 @@ alwaysZero on
 color 63,0,125
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/mrna_07hr_1.bw
+bigDataUrl mrna_07hr_1.bw
 
 track mRNA-seq_7hr_2
 priority 28
@@ -117,7 +118,7 @@ alwaysZero on
 color 63,0,125
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/mrna_07hr_2.bw
+bigDataUrl mrna_07hr_2.bw
 
 track ORFs_predic
 priority 1
@@ -127,6 +128,7 @@ longLabel Predicted ORFs
 type group
 superTrack on
 group regulation
+html ORFs_predic.html
 
 track ORFs
 priority 2
@@ -137,7 +139,7 @@ type bigBed 12 +
 autoScale on
 visibility full
 itemRgb on
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/ORFs.bb
+bigDataUrl ORFs.bb
 color 40,80,120
 
 track Vero6_05hpi
@@ -148,6 +150,7 @@ longLabel Vero6 5hpi Ribo-seq and RNA-seq
 type group
 superTrack on
 group regulation
+html Vero6_05hpi.html
 
 track CHX_5hr_1
 priority 11
@@ -161,7 +164,7 @@ color 4,90,141
 visibility full
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_chx_05hr_1.bw
+bigDataUrl fp_chx_05hr_1.bw
 
 track CHX_5hr_2
 priority 12
@@ -175,7 +178,7 @@ alwaysZero on
 color 4,90,141
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_chx_05hr_2.bw
+bigDataUrl fp_chx_05hr_2.bw
 
 track Harr_5hr_1
 priority 13
@@ -189,7 +192,7 @@ color 179,0,0
 visibility full
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_harr_05hr_1.bw
+bigDataUrl fp_harr_05hr_1.bw
 
 track Harr_5hr_2
 priority 14
@@ -203,7 +206,7 @@ alwaysZero on
 color 179,0,0
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_harr_05hr_2.bw
+bigDataUrl fp_harr_05hr_2.bw
 
 track LTM_5hr_1
 visibility full
@@ -217,7 +220,7 @@ alwaysZero on
 color 35,139,69
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_ltm_05hr_1.bw
+bigDataUrl fp_ltm_05hr_1.bw
 
 track LTM_5hr_2
 priority 16
@@ -231,7 +234,7 @@ color 35,139,69
 visibility hide
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_ltm_05hr_2.bw
+bigDataUrl fp_ltm_05hr_2.bw
 
 track mRNA-seq_5hr_1
 priority 17
@@ -245,7 +248,7 @@ alwaysZero on
 color 63,0,125
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/mrna_05hr_1.bw
+bigDataUrl mrna_05hr_1.bw
 
 track mRNA-seq_5hr_2
 priority 18
@@ -259,7 +262,7 @@ alwaysZero on
 color 63,0,125
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/mrna_05hr_2.bw
+bigDataUrl mrna_05hr_2.bw
 
 track Vero6_24hpi
 priority 30
@@ -269,6 +272,7 @@ longLabel Vero6 24hpi Ribo-seq and RNA-seq
 type group
 superTrack on
 group regulation
+html Vero6_24hpi.html
 
 track CHX_24hr_1
 priority 31
@@ -282,7 +286,7 @@ alwaysZero on
 color 4,90,141
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_chx_24hr_1.bw
+bigDataUrl fp_chx_24hr_1.bw
 
 track CHX_24hr_2
 priority 32
@@ -296,7 +300,7 @@ alwaysZero on
 color 4,90,141
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_chx_24hr_2.bw
+bigDataUrl fp_chx_24hr_2.bw
 
 track Harr_24hr_1
 priority 33
@@ -310,7 +314,7 @@ alwaysZero on
 color 179,0,0
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_harr_24hr_1.bw
+bigDataUrl fp_harr_24hr_1.bw
 
 track Harr_24hr_2
 priority 34
@@ -324,7 +328,7 @@ alwaysZero on
 color 179,0,0
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_harr_24hr_2.bw
+bigDataUrl fp_harr_24hr_2.bw
 
 track LTM_24hr_1
 priority 35
@@ -338,7 +342,7 @@ alwaysZero on
 color 35,139,69
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_ltm_24hr_1.bw
+bigDataUrl fp_ltm_24hr_1.bw
 
 track LTM_24hr_2
 priority 36
@@ -352,7 +356,7 @@ alwaysZero on
 color 35,139,69
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/fp_ltm_24hr_2.bw
+bigDataUrl fp_ltm_24hr_2.bw
 
 track mRNA-seq_24hr_1
 priority 37
@@ -366,7 +370,7 @@ alwaysZero on
 color 63,0,125
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/mrna_24hr_1.bw
+bigDataUrl mrna_24hr_1.bw
 
 track mRNA-seq_24hr_2
 priority 38
@@ -380,5 +384,5 @@ alwaysZero on
 color 63,0,125
 maxHeightPixels 124:32:5
 viewLimits 0:10
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/mrna_24hr_2.bw
+bigDataUrl mrna_24hr_2.bw
 
