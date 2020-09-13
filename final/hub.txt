@@ -1,0 +1,5 @@
+hub RiboSeq.both
+shortLabel ORFs Predictions
+longLabel RNA-Seq, Ribo_Seq, and ORFs Predictions
+genomesFile genome.txt
+email aharonn@gmail.com

@@ -1,0 +1,388 @@
+track Calu3_07hpi
+priority 10
+visibility full
+shortLabel Calu3 7hpi
+longLabel Calu3 7hpi Ribo-seq and RNA-seq
+type group
+superTrack on
+group regulation
+html docs/calu3_07hpi.html
+
+track CHX_7hr_1
+priority 21
+parent Calu3_07hpi
+shortLabel Calu3 CHX 7hr 1
+longLabel Calu3 CHX 7hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 4,90,141
+visibility full
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/fp_chx_07hr_1.bw
+
+track CHX_7hr_2
+priority 22
+visibility hide
+parent Calu3_07hpi
+shortLabel Calu3 CHX 7hr 2
+longLabel Calu3 CHX 7hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 4,90,141
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/fp_chx_07hr_2.bw
+
+track Harr_7hr_1
+priority 23
+parent Calu3_07hpi
+shortLabel Calu3 Harr 7hr 1
+longLabel Calu3 Harr 7hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 179,0,0
+visibility full
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/fp_harr_07hr_1.bw
+
+track Harr_7hr_2
+priority 24
+visibility hide
+parent Calu3_07hpi
+shortLabel Calu3 Harr 7hr 2
+longLabel Calu3 Harr 7hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 179,0,0
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/fp_harr_07hr_2.bw
+
+track LTM_7hr_1
+priority 25
+parent Calu3_07hpi
+shortLabel Calu3 LTM 7hr 1
+longLabel Calu3 LTM 7hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 35,139,69
+visibility full
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/fp_ltm_07hr_1.bw
+
+track LTM_7hr_2
+priority 26
+visibility hide
+parent Calu3_07hpi
+shortLabel Calu3 LTM 7hr 2
+longLabel Calu3 LTM 7hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 35,139,69
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/fp_ltm_07hr_2.bw
+
+track mRNA-seq_7hr_1
+priority 27
+visibility full
+parent Calu3_07hpi
+shortLabel Calu3 mRNA 7hr 1
+longLabel Calu3 mRNA 7hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 63,0,125
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/mrna_07hr_1.bw
+
+track mRNA-seq_7hr_2
+priority 28
+visibility hide
+parent Calu3_07hpi
+shortLabel Calu3 mRNA 7hr 2
+longLabel Calu3 mRNA 7hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 63,0,125
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl calu3_07hr/mrna_07hr_2.bw
+
+track ORFs_predic
+priority 1
+visibility full
+shortLabel Predic ORFs
+longLabel Predicted ORFs
+type group
+superTrack on
+group regulation
+html docs/ORFs_predic.html
+
+track ORFs
+priority 2
+parent ORFs_predic
+shortLabel ORFs predictions
+longLabel ORFs predictions
+type bigBed 12 +
+autoScale on
+visibility full
+itemRgb on
+bigDataUrl anno/ORFs.bb
+color 40,80,120
+
+track Vero6_05hpi
+priority 10
+visibility full
+shortLabel Vero6 5hpi
+longLabel Vero6 5hpi Ribo-seq and RNA-seq
+type group
+superTrack on
+group regulation
+html docs/vero6_05hpi.html
+
+track CHX_5hr_1
+priority 11
+parent Vero6_05hpi
+shortLabel Vero6 CHX 5hr 1
+longLabel Vero6 CHX 5hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 4,90,141
+visibility full
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/fp_chx_05hr_1.bw
+
+track CHX_5hr_2
+priority 12
+visibility hide
+parent Vero6_05hpi
+shortLabel Vero6 CHX 5hr 2
+longLabel Vero6 CHX 5hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 4,90,141
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/fp_chx_05hr_2.bw
+
+track Harr_5hr_1
+priority 13
+parent Vero6_05hpi
+shortLabel Vero6 Harr 5hr 1
+longLabel Vero6 Harr 5hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 179,0,0
+visibility full
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/fp_harr_05hr_1.bw
+
+track Harr_5hr_2
+priority 14
+visibility hide
+parent Vero6_05hpi
+shortLabel Vero6 Harr 5hr 2
+longLabel Vero6 Harr 5hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 179,0,0
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/fp_harr_05hr_2.bw
+
+track LTM_5hr_1
+visibility full
+priority 15
+parent Vero6_05hpi
+shortLabel Vero6 LTM 5hr 1
+longLabel Vero6 LTM 5hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 35,139,69
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/fp_ltm_05hr_1.bw
+
+track LTM_5hr_2
+priority 16
+parent Vero6_05hpi
+shortLabel Vero6 LTM 5hr 2
+longLabel Vero6 LTM 5hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 35,139,69
+visibility hide
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/fp_ltm_05hr_2.bw
+
+track mRNA-seq_5hr_1
+priority 17
+visibility full
+parent Vero6_05hpi
+shortLabel Vero6 mRNA 5hr 1
+longLabel Vero6 mRNA 5hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 63,0,125
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/mrna_05hr_1.bw
+
+track mRNA-seq_5hr_2
+priority 18
+visibility hide
+parent Vero6_05hpi
+shortLabel Vero6 mRNA 5hr 2
+longLabel Vero6 mRNA 5hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 63,0,125
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_05hr/mrna_05hr_2.bw
+
+track Vero6_24hpi
+priority 30
+visibility hide
+shortLabel Vero6 24hpi
+longLabel Vero6 24hpi Ribo-seq and RNA-seq
+type group
+superTrack on
+group regulation
+html docs/vero6_24hpi.html
+
+track CHX_24hr_1
+priority 31
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 CHX 24hr 1
+longLabel Vero6 CHX 24hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 4,90,141
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/fp_chx_24hr_1.bw
+
+track CHX_24hr_2
+priority 32
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 CHX 24hr 2
+longLabel Vero6 CHX 24hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 4,90,141
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/fp_chx_24hr_2.bw
+
+track Harr_24hr_1
+priority 33
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 Harr 24hr 1
+longLabel Vero6 Harr 24hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 179,0,0
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/fp_harr_24hr_1.bw
+
+track Harr_24hr_2
+priority 34
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 Harr 24hr 2
+longLabel Vero6 Harr 24hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 179,0,0
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/fp_harr_24hr_2.bw
+
+track LTM_24hr_1
+priority 35
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 LTM 24hr 1
+longLabel Vero6 LTM 24hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 35,139,69
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/fp_ltm_24hr_1.bw
+
+track LTM_24hr_2
+priority 36
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 LTM 24hr 2
+longLabel Vero6 LTM 24hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 35,139,69
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/fp_ltm_24hr_2.bw
+
+track mRNA-seq_24hr_1
+priority 37
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 mRNA 24hr 1
+longLabel Vero6 mRNA 24hr 1
+type bigWig
+autoScale on
+alwaysZero on
+color 63,0,125
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/mrna_24hr_1.bw
+
+track mRNA-seq_24hr_2
+priority 38
+visibility hide
+parent Vero6_24hpi
+shortLabel Vero6 mRNA 24hr 2
+longLabel Vero6 mRNA 24hr 2
+type bigWig
+autoScale on
+alwaysZero on
+color 63,0,125
+maxHeightPixels 124:32:5
+viewLimits 0:10
+bigDataUrl vero6_24hr/mrna_24hr_2.bw
+

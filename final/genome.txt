@@ -1,0 +1,2 @@
+genome wuhCor1
+trackDb trackDB.txt
