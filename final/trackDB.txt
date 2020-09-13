@@ -133,11 +133,11 @@ html docs/ORFs_predic.html
 track ORFs
 priority 2
 parent ORFs_predic
-shortLabel ORFs predictions
-longLabel ORFs predictions
+shortLabel ORF predictions
+longLabel ORF predictions
 type bigBed 12 +
 autoScale on
-visibility full
+visibility pack
 itemRgb on
 bigDataUrl anno/ORFs.bb
 color 40,80,120
@@ -276,7 +276,7 @@ html docs/vero6_24hpi.html
 
 track CHX_24hr_1
 priority 31
-visibility hide
+visibility full
 parent Vero6_24hpi
 shortLabel Vero6 CHX 24hr 1
 longLabel Vero6 CHX 24hr 1
@@ -304,7 +304,7 @@ bigDataUrl vero6_24hr/fp_chx_24hr_2.bw
 
 track Harr_24hr_1
 priority 33
-visibility hide
+visibility full
 parent Vero6_24hpi
 shortLabel Vero6 Harr 24hr 1
 longLabel Vero6 Harr 24hr 1
@@ -332,7 +332,7 @@ bigDataUrl vero6_24hr/fp_harr_24hr_2.bw
 
 track LTM_24hr_1
 priority 35
-visibility hide
+visibility full
 parent Vero6_24hpi
 shortLabel Vero6 LTM 24hr 1
 longLabel Vero6 LTM 24hr 1
@@ -360,7 +360,7 @@ bigDataUrl vero6_24hr/fp_ltm_24hr_2.bw
 
 track mRNA-seq_24hr_1
 priority 37
-visibility hide
+visibility full
 parent Vero6_24hpi
 shortLabel Vero6 mRNA 24hr 1
 longLabel Vero6 mRNA 24hr 1
