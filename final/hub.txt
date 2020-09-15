@@ -3,3 +3,4 @@ shortLabel ORF Predictions
 longLabel RNA-Seq, Ribo_Seq, and ORF Predictions
 genomesFile genome.txt
 email aharonn@gmail.com
+html docs/ORFs_predic.html

@@ -4,7 +4,7 @@ visibility full
 shortLabel Calu3 7hpi
 longLabel Calu3 7hpi Ribo-seq and RNA-seq
 type group
-superTrack on
+superTrack on show
 group regulation
 html docs/calu3_07hpi.html
 
@@ -126,7 +126,7 @@ visibility full
 shortLabel Predic ORFs
 longLabel Predicted ORFs
 type group
-superTrack on
+superTrack on show
 group regulation
 html docs/ORFs_predic.html
 
@@ -148,7 +148,7 @@ visibility full
 shortLabel Vero6 5hpi
 longLabel Vero6 5hpi Ribo-seq and RNA-seq
 type group
-superTrack on
+superTrack on show
 group regulation
 html docs/vero6_05hpi.html
 
